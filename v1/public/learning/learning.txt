@@ -1,0 +1,19 @@
+Q) How to disable button?
+A)button.disabled = true;
+
+Q) can i set properties on button too?
+A)
+yes
+button.stream = stream;
+button.mediaCaptureCallback = ..;
+
+Q) How to change html of button?
+A)
+button.innerHTML = "Stop Recording";
+
+Q) What is mime type of webm?
+A)
+mime type: video/webm
+fileExtension: webm
+
+Q) 
