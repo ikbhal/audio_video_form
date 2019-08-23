@@ -9,8 +9,8 @@ var app = express();
 //app.use(express.static(__dirname));
 app.use(express.static("public"));
 
-app.post('/post_pdf/', upload.any(), (req, res) => {
-    console.log('POST /post_pdf/');
+app.post('/video', upload.any(), (req, res) => {
+    console.log('POST /video');
     console.log('Files: ', req.files);
     var fileName = moment().format("YYYY-MM-DD-HH-MM-SS-x")+".webm";
     fs.writeFile(path.resolve(__dirname , "public/uploads/", fileName), req.files[0].buffer, (err) => {

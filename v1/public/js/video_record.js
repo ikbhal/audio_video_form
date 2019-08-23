@@ -19,7 +19,7 @@ function uploadFile(blob) {
     data.append('file', blob);
 
     $.ajax({
-        url: "http://localhost:8081/post_pdf/",
+        url: "/video",
         type: "POST",
         data: data,
         enctype: 'multipart/form-data',
