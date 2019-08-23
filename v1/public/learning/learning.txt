@@ -17,3 +17,17 @@ mime type: video/webm
 fileExtension: webm
 
 Q) 
+
+---
+video 
+
+https://webrtc.github.io/samples/src/content/devices/input-output/
+
+Q) How to create https node.js server?
+A)
+https://contextneutral.com/story/creating-an-https-server-with-nodejs-and-express
+openssl req -new -newkey rsa:2048 -nodes -out 7thsky.in.csr -keyout private.key
+
+Q) how to generate self signed certificate ssl?
+A)
+https://www.google.com/search?q=generate+self+signed+certificate&rlz=1C1CHBF_enIN815IN815&oq=generate+self+sign&aqs=chrome.0.0l4j69i57j0.3256j0j7&sourceid=chrome&ie=UTF-8
